@@ -1,8 +1,12 @@
 backend:
   name: github
   repo: covokswing/covok-log
+
 media_folder: static/assets
 public_folder: /assets
+
+locale: 'ko'
+
 collections:
   - name: blog
     label: Blog
