@@ -1,5 +1,5 @@
 ---
-path: bigapple-anti-covid-policy
+slug: bigapple-anti-covid-policy
 date: 2020-05-02T14:22:19.310Z
 title: 빅애플의 코로나19 대응 운영 방침
 ---
