@@ -12,8 +12,8 @@ module.exports = {
     // change this to you website url
     siteUrl: `https://covokswing.netlify.com/`, 
     home: {
-      title: `한국스윙 OK`,
-      description: `한국 스윙댄스 씬은 여전히 코로나19에 대한 경각심을 늦추지 않아야 한다고 생각하고 있고, 이를 위해 다양한 노력을 기울이고 있습니다. **코복스윙** (cov.ok.swing) 블로그는 스윙씬에서 코로나19의 위협에 대응하기 위한 노력들, 여러 구성원들의 생각, 현황을 한데 모았습니다. :)`,
+      title: `한국 스윙댄스 씬이 코로나를 이겨내는 방법`,
+      description: `한국 스윙댄스 씬은 여전히 코로나19에 대한 경각심을 늦추지 않고 있고, 이를 위해 다양한 노력을 기울이고 있습니다. **코복스윙** (cov.ok.swing) 블로그는 스윙씬에서 코로나19의 위협에 대응하기 위한 노력들, 여러 구성원들의 생각, 현황을 한데 모았습니다. :)`,
     },
   },
   plugins: [
