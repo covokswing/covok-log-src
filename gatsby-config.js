@@ -77,8 +77,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Delog GatbsyJS Starter`,
-        short_name: `Delog`,
+        name: `Swing Dance in Korea over COVID-19`,
+        short_name: `covokswing`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#381696`,
