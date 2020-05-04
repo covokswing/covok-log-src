@@ -42,13 +42,37 @@ module.exports = {
         }],
       },
     },
+    // {
+    //   resolve: `gatsby-plugin-google-analytics`,
+    //   options: {
+    //     // The property ID; the tracking code won't be generated without it. replace with yours
+    //     trackingId: "UA-164743872-1",
+    //     head: true,
+    //   }
+    // },
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: "gatsby-plugin-google-tagmanager",
       options: {
-        // The property ID; the tracking code won't be generated without it. replace with yours
-        trackingId: "UA-164743872-1",
-        head: true,
-      }
+        id: "GTM-NN6VH53",
+  
+        // Include GTM in development.
+        // Defaults to false meaning GTM will only be loaded in production.
+        includeInDevelopment: false,
+  
+        // datalayer to be set before GTM is loaded
+        // should be a stringified object or object
+        // Defaults to null
+        defaultDataLayer: function () {
+          return {
+            pageType: window.pageType,
+          }
+        },
+
+        // Specify optional GTM environment details.
+        gtmAuth: "a9dIp3nEkAQUcHaaEHV8qg",
+        gtmPreview: "env-3",
+        dataLayerName: "dataLayer",        
+      },
     },
     {
       resolve: `gatsby-plugin-manifest`,
